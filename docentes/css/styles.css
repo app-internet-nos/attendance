@@ -1,0 +1,14 @@
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.form-control:disabled {
+  background-color: #e9ecef;
+}

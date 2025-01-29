@@ -1,0 +1,242 @@
+body {
+  background-color: #f8f9fa;
+  /* Oribackground-color: #f8f9fa; */
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.form-label {
+  color: #939393;
+}
+
+input::placeholder {
+  color: #939393;
+}
+
+.form-control {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px 15px;
+
+}
+
+.btn-custom {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.stat-card {
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-card .number {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.bg-estudiantes {
+  background-color: #007bff;
+}
+
+.bg-docentes {
+  background-color: #28a745;
+}
+
+.bg-clases {
+  background-color: #17a2b8;
+}
+
+.bg-asistencias {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+/* START Toastar */
+.toast-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+/* END Toastar */
+
+/* START buttons Datatables */
+.dt-buttons {
+  padding: 0;
+}
+
+.dt-button.btn.btn-primary,
+.dt-button.btn.btn-success,
+.dt-button.btn.btn-warning,
+.dt-button.btn.btn-danger,
+.dt-button.btn.btn-info {
+  border: none !important;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.dt-button.btn.btn-primary {
+  background-color: #007bff;
+}
+
+.dt-button.btn.btn-success {
+  background-color: #198754;
+}
+
+.dt-button.btn.btn-warning {
+  background-color: #FFC107;
+  color: #000000;
+}
+
+.dt-button.btn.btn-danger {
+  background-color: #DC3545;
+}
+
+.dt-button.btn.btn-info {
+  background-color: #0DCAF0;
+  color: #000000;
+}
+
+.dt-button.btn.btn-primary:hover {
+  background-color: #0B5ED7 !important;
+}
+
+.dt-button.btn.btn-success:hover {
+  background-color: #146C43 !important;
+}
+
+
+
+.dt-button.btn.btn-warning:hover {
+  background-color: #FFCA2C !important;
+  color: #000000;
+}
+
+
+.dt-button.btn.btn-danger:hover {
+  background-color: #BB2D3B !important;
+}
+
+.dt-button.btn.btn-info:hover {
+  background-color: #31D2F2 !important;
+}
+
+.dt-button.buttons-collection.btn.btn-secondary {
+  border: none !important;
+  border-radius: 5px;
+  background-color: #6C757D !important;
+  color: #fff;
+
+}
+
+.dt-button.buttons-collection.btn.btn-secondary:hover {
+  background-color: #5C636A !important;
+}
+
+/* END buttons Datatables */
+
+/*--------------------------*/
+/* START custom Sweetalert2 */
+/*--------------------------*/
+.custom-modal .swal2-html-container {
+  margin: 1em 1.6em 0.3em;
+}
+
+.custom-modal .swal2-input,
+.custom-modal .swal2-select {
+  width: 100%;
+  margin: 0.5em auto;
+  font-size: 1.1em;
+}
+
+.custom-modal .swal2-select {
+  padding: 0.5em;
+}
+
+.custom-modal .swal2-actions {
+  margin-top: 1.5em;
+}
+
+.custom-modal .swal2-confirm,
+.custom-modal .swal2-cancel {
+  padding: 0.5em 2em;
+  font-size: 1.1em;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.custom-modal .swal2-confirm {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.custom-modal .swal2-confirm:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.custom-modal .swal2-cancel {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.custom-modal .swal2-cancel:hover {
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+
+.custom-modal .swal2-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: #DC3545; */
+  color: #0D6EFD;
+  font-weight: 700;
+}
+
+.custom-modal .swal2-title i {
+  margin-right: 10px;
+}
+
+.input-icon-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon-wrapper input {
+  padding-left: 30px;
+  /* Espacio para el icono */
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 1em;
+  transition: opacity 0.3s ease;
+}
+
+/* END custom Sweetalert2 */
